@@ -1,0 +1,306 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #a36fe4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+  background: #a36fe4;
+  box-shadow: 0px 0px 10px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 5%;
+}
+.img1{
+  width: 6%;
+  float: left;
+  outline: 0;
+
+}
+.a1{
+  margin-right: 5%;
+  width: 30%;
+  font-size: 120%;
+  font-weight: bold
+}
+.title2{
+  margin-right: 5%;
+  width: 30%;
+  font-size: 120%;
+  font-weight: bold
+}
+.img2{
+  width: 6%;
+  float: right;
+  outline: 0;
+
+}
+.a3{
+  float: left;
+  outline: 0;
+  font-size:80%;
+}
+.a4{
+  outline: 0;
+  margin:0%;
+}
+.div2{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%
+}
+.search1{
+  width: 85%;
+  height: 26px;
+  margin-right: 0;
+  margin: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: 0;
+}
+.img3{
+  width: 10%;
+  margin-left: 0;
+  margin: none;
+
+}
+.img4{
+  width: 10%;
+  outline: 0;
+  padding: 5%
+}
+.lab1{
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border: 1px solid black;
+  margin: 2%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.lab1:hover{
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border: 2px solid black;
+  margin: 2%;
+  border-radius: 5px;
+
+}
+.lab2{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 90%;
+
+}
+.a2{
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-weight: bolder;
+  margin-top: 2%;
+  cursor: pointer;
+}
+.atudo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  cursor: pointer;
+}
+.lbl{
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 2%;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+  margin: 5px;
+}
+.submenu{
+  border: 1px solid black;
+  padding-left: 0;
+  border-radius: 5px;
+}
+.conteudo{
+  margin: 2%;
+  border-radius: 5px;
+  background: #fff;
+}
+.su{
+  color: #000;
+}
+.su1{
+  color: #000;
+  border-top: 1px solid black;
+}
+@keyframes subsub{
+  from{
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes up{
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+.foo3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10px;
+}
+.labe{
+  font-weight: bold;
+}
+.cada{
+  color: #fff;
+}
+.inp3{
+  background: #79e566;
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+  border-radius:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  outline: 0;
+  font-weight: bold;
+  margin-top: 10%;
+}
+.inp4{
+  background: #79e566;
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+  border-radius:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  outline: 0;
+  font-weight: bold;
+  margin-top: 10%;
+  width: 50%;
+}
+.div10{
+  background: white;
+  border-radius:5px;
+  margin:20px;
+  box-shadow: 2px 2px 2px;
+  padding: 5%;
+  width: 250px;
+}
+.age{
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 90%;
+  height: 10%;
+}
+
+@media (min-width:900px){
+  .tudo{
+    position: absolute;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .lab1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 90vw;
+    height: 9vh;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .fix{
+    font-size: 35px
+  }
+  .a2{
+    font-size: 200%
+  }
+  .atudo{
+    font-size: 100%
+  }
+  .title{
+    font-size: 50px;
+    margin-top: 70px
+  }
+  .title1{
+    font-size: 50px
+  }
+  .img4{
+    width: 7vw
+  }
+  .su{
+    font-size: 200%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .su1{
+    font-size: 200%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .labe{
+    font-size: 150%
+  }
+  .cada{
+    font-size: 150%
+  }
+  .age{
+    width: 200px;
+    height: 30px;
+  }
+  .inp4{
+    width: 100px;
+    height: 50px;
+    margin-top: 5%
+  }
+  .title2{
+    font-size: 50px
+  }
+  .alin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ag{
+    font-size: 200%
+  }
+  .ocult{
+    display: none;
+  }
+}

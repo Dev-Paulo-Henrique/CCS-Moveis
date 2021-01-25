@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./style3.css">
+
+  <link rel="shortcut icon" href="Imagens/pokestop-violette-cube.png" type="image/png">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+  <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2dist/sweetalert2.min.css">
+  <script type="module">
+  import Swal from 'sweetalert2/src/sweetalert2.js'
+  </script>
+
+  <title>
+    Perfil
+  </title>
+
+</head>
+
+<body>
+<center>
+  <div class="perfil">
+    <img src="Imagens/person-male.png" alt="Image" style="border-radius:50%; border:5px solid black; width:200px"/>
+<br>
+<br>
+  <strong>
+    Nome:
+  </strong>
+<br>
+  <script>
+    var nam = window.localStorage.getItem("Nome:");
+    var sobrenome = window.localStorage.getItem("Sobrenome:");
+    document.write(" "+nam+" "+sobrenome)
+  </script>
+<br>
+<br>
+  <strong>
+    Telefone:
+  </strong>
+<br>
+  <script>
+    var tel = window.localStorage.getItem("Telefone:");
+    document.write(" "+tel)
+  </script>
+<br>
+<br>
+  <strong>
+    Email:
+  </strong>
+<br>
+  <script>
+    var email = window.localStorage.getItem("Email:");
+    document.write(" "+email)
+  </script>
+<br>
+<br>
+  <strong>
+    Localização:
+  </strong>
+<br>
+  <script>
+    var local = window.localStorage.getItem("Local:");
+    document.write(" "+local)
+  </script>
+<br>
+<br>
+  <input type="button" onclick="cadastrar()" class="inp3" value="Atualizar informações" style="cursor: pointer;"/>
+<br>
+  <input type="button" onclick="remove()" class="inp3" value="Apagar dados" style="cursor: pointer;"/>
+  </div>
+</center>
+<script src="main.js"></script>
+</body>
+
+</html>

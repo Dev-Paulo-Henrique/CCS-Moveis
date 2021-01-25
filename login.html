@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="Imagens/pokestop-violette-cube.png" type="image/png">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+  <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2dist/sweetalert2.min.css">
+  <script type="module">
+  import Swal from 'sweetalert2/src/sweetalert2.js'
+  </script>
+
+</head>
+
+  <title>
+    CCS MÓVEIS
+  </title>
+
+</head>
+
+<body>
+  <div class="tudo">
+    <div class="div0">
+      <input type="image" src="imagens/c.png" alt="Image" class="inp0" />
+      <input type="image" src="imagens/c.png" alt="Image" class="inp0" />
+      <input type="image" src="imagens/s.png" alt="Image" class="inp0" />
+
+    </div>
+  <div>
+<center>
+  <form method="POST" class="form1">
+    <div class="div1" id="div10">
+      <label class="label1" style="padding-right: 50px;">
+        <img src="Imagens/secured-letter--v2.png" alt="Image" class="img1"/>
+        <input type="email" placeholder="Digite seu e-mail" class="inp1" id="email" required style="width: 100%;"/>
+      </label>
+    </div>
+    <div class="div2" id="div11">
+      <label class="label2">
+        <img src="Imagens/key.png" alt="Image" class="img1"/>
+        <input type="password" placeholder="Digite sua senha" class="inp2" minlength="5" maxlength="15" id="senha" required/>
+        <img src="Imagens/visible.png" alt="Image" class="img1" id="see" onclick="mostrarSenha()" style="margin-left:5px; cursor: pointer;"/>
+      </label>
+    </div>
+  </form>
+  <input type="button" onclick="logar()" class="inp3" id="entrar" value="Entrar" style="cursor: pointer;"/>
+  </div>
+</center>
+<br>
+  <footer class="foo3">
+    <label class="labe">Não tem conta?
+      <a href="cadastro.html" class="cada" target="_self">Cadastre-se</a>
+      <p></p>
+    </label>
+  </footer>
+  </div>
+<script src="main.js"></script>
+</body>
+
+</html>
+

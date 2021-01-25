@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style2.css">
+
+  <link rel="shortcut icon" href="./Imagens/pokestop-violette-cube.png" type="image/png">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+  <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2dist/sweetalert2.min.css">
+    <script type="module">
+  import Swal from 'sweetalert2/src/sweetalert2.js'
+  </script>
+
+  <title>
+    Página Inicial
+  </title>
+
+</head>
+
+<body>
+  <div style="background: #a36fe4;
+    box-shadow: 0px 0px 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5%;
+    position: fixed;
+    width:90%;
+    margin-top: 0%;
+    z-index:999;
+    height: 15px;">
+  <section>
+    <article>
+      <div class="fix">
+        <a class="a3">
+          Usuário:
+          <p style="color:#fff; cursor: pointer;" class="a4" onclick="perfil()">
+            <script>
+              var nam = window.localStorage.getItem("Nome:");
+
+              document.write(nam)
+            </script>
+          </p>
+        </a>
+        <a class="a1" style="cursor:pointer;" onclick="reload()">
+          CCS MÓVEIS
+        </a>
+        <input type="image" src="Imagens/menu-2.png" alt="Image" class="img2" id="search" onclick="acao()" style="width: 5%;"/>
+      </div>
+    </article>
+  </section>
+  </div>
+  <div class="tudo">
+<br>
+<center>
+  <h2 class="title1" style="margin-top: 100px;">
+    Agendamento
+  </h2>
+<center>
+  <div class="div10">
+<center>
+  <form id="data">
+    <a class="ag">
+      Dia:
+    </a>
+<br>
+<br>
+  <select class="age" id="dia" required style="display: flex; align-items: center;">
+    <option hidden>
+    </option>
+    <option>
+      Sábado
+    </option>
+    <option>
+      Domingo
+    </option>
+  </select>
+<br>
+<br>
+    <a class="ag">
+      Hora:
+    </a>
+<br>
+<br>
+  <select class="age" id="hora" required style="display: flex; align-items: center;">
+    <option hidden>
+    </option>
+    <option>
+      08:00
+    </option>
+    <option>
+      09:00
+    </option>
+    <option>
+      10:00
+    </option>
+    <option>
+      11:00
+    </option>
+    <option>
+      12:00
+    </option>
+    <option>
+      13:00
+    </option>
+    <option>
+      14:00
+    </option>
+    <option>
+      15:00
+    </option>
+  </select>
+  <input type="button" value="Enviar" onclick="agend()" id="agendar" class="inp4" style="cursor: pointer;"/>
+  </form>
+</center>
+  </div>
+  <div class="ocult">
+  <div style="
+    border-bottom: 1px solid black;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom:25px;
+    ">
+  </div>
+<br>
+  <footer class="foo3" style="font-size: 20px;">
+    <label class="labe">
+      Siga-me no Instagram:
+    <a href="https://instagram.com/ccs_moveis?igshid=pz1ng7zhgnm0" class="cada" target="_self">
+      @ccs_moveis
+    </a>
+<br>
+<br>
+<center>
+  <label class="labe">
+    Envie seu
+  </label>
+  <a href="mailto: ccsmoveis1@gmail.com?subject=Olá%20CCS" class="cada" target="_blank">
+    feedback
+  </a>
+  </label>
+</center>
+  </footer>
+<br>
+</div>
+  </div>
+<script src="main.js"></script>
+</body>
+
+</html>

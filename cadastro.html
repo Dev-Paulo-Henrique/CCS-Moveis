@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="shortcut icon" href="Imagens/pokestop-violette-cube.png" type="image/png">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+  <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2dist/sweetalert2.min.css">
+  <script type="module">
+    import Swal from 'sweetalert2/src/sweetalert2.js'
+  </script>
+
+  <title>
+    Cadastro
+  </title>
+
+</head>
+
+<body>
+  <div class="tudoc">
+    <a class="a1">Formulário</a>
+    <div>
+      <form method="POST">
+        <div class="div1" id="nomeborder">
+          <label class="label1" style="width: 100%;">
+            <img src="Imagens/person-male.png" alt="Image" class="img1"/>
+            <input type="text" name="nome" placeholder="Digite seu nome" class="inp1" id="cnome" required/>
+          </label>
+        </div>
+        <div class="div1" id="sobrenomeborder">
+          <label class="label1" style="width: 100%;">
+            <img src="Imagens/person-male.png" alt="Image" class="img1"/>
+            <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" class="inp1" id="csobrenome" required/>
+          </label>
+        </div>
+        <div class="div1" id="localborder">
+          <label class="label1" style="width: 100%;">
+            <img src="Imagens/place-marker.png" alt="Image" class="img1"/>
+            <input type="text" name="local" placeholder="Digite sua localização" class="inp10" id="clocal" required/>
+          </label>
+        </div>
+        <div class="div1" id="telborder">
+          <label class="label1" style="width: 100%;">
+            <img src="Imagens/cell-phone.png" alt="Image" class="img1"/>
+            <input type="tel" name="telefone" placeholder="Digite seu telefone" class="inp10" id="ctel" required/>
+          </label>
+        </div>
+        <div class="div1" id="emailborder">
+          <label class="label1" style="width: 100%;">
+            <img src="Imagens/secured-letter--v2.png" alt="Image" class="img1"/>
+            <input type="email" name="email" placeholder="Digite seu email" class="inp1" id="cemail" required/>
+          </label>
+        </div>
+        <div class="div1" id="senhaborder">
+          <label class="label1" style="width: 100%;">
+            <img src="Imagens/key.png" alt="Image" class="img1"/>
+            <input type="password" name="senha" placeholder="Digite sua senha" minlength="5" maxlength="15" class="inp1" id="csenha" required/>
+          </label>
+        </div>
+        <div class="div1" id="confirmeborder">
+          <label class="label1" style="width: 100%;">
+            <img src="Imagens/key.png" alt="Image" class="img1"/>
+            <input type="password" placeholder="Confirme sua senha"  class="inp1" minlength="5" maxlength="15" id="cconfirme" required/>
+          </label>
+        </div>
+<center>
+        </form>
+    <input type="button" class="inp3" onclick="confirme()" value="Enviar" style="cursor: pointer;"/>
+    </div>
+<p></p>
+</center>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
